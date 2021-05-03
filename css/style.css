@@ -2,49 +2,25 @@ body{background: url("/img/1.png")}
 
 *{
     padding: 0;
-    margin: 0;
+    margin:  0;
+  }
+header{
+  background-color: darkmagenta;
 }
 
-.wrapper {
-    width: 80%;
-    margin: auto;
-    overflow:hidden;
+nav ul li{
+  list-style: none;
+  display: inline-block;
+
 }
 
-header {
-    background: rgb(128,0,128);
-    width: 100%;
-    position: fixed;
-    z-index: 10;
+nav ul li a{
+  color :black;
+  display:block;
+  text-decoration: none;
+  padding: 20px 20px;
 }
-  
-  nav {
-    float: left; /* Desplazamos el nav hacia la izquierda */
-  }
-  nav ul {
-    list-style: none;
-    overflow: hidden; /* Limpiamos errores de float */
-  }
-  nav ul li {
-    float: left;
-    font-family: Copperplate, Papyrus, fantasy;
-    font-size: 12px;
-  }
-  nav ul li a {
-    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
-    padding: 20px;
-    color: #fff;
-    text-decoration: none;
-  }
-  nav ul li:hover {
-    background:black;
-  }
-  .contenido {
-    padding-top: 80px;
-  }
-  
-.Logo-P{
-    position: fixed;
-    left:40px;
-    height: 45px;
+
+nav ul li a:hover{
+  background-color: white;
 }
