@@ -1,26 +1,53 @@
 body{background: url("/img/1.png")}
 
-*{
-    padding: 0;
-    margin:  0;
-  }
-header{
-  background-color: darkmagenta;
+
+.Contenedor-Principal{
+  width: 80%;
+  max-width: 1000px;
+  
+  
 }
 
-nav ul li{
-  list-style: none;
-  display: inline-block;
+nav{
+  position:absolute;
+  left:1100px;
+  top:10px;
+}
 
+div img{
+  position:absolute;
+  left:30px;
+  top:25px;
+}
+
+div img:hover{
+  background-color: bisque;
+}
+
+
+
+
+*{
+  padding:0;
+  margin: 0;
+}
+
+
+
+nav ul li{
+      list-style: none;
+      display: inline-block;
 }
 
 nav ul li a{
-  color :black;
-  display:block;
+  color:black;
+  display: block;
   text-decoration: none;
-  padding: 20px 20px;
+  padding:20px;
 }
 
 nav ul li a:hover{
-  background-color: white;
+  background-color:bisque
 }
+
+
