@@ -1,23 +1,26 @@
 body{background: url("/img/1.png")}
 
+*{
+  padding:0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+
+
 
 .Contenedor-Principal{
   width: 80%;
   max-width: 1000px;
 }
 
-.Content-1{
-  padding: 100px;
-  margin: 10px;
-  background-color: black;
-  
-}
-
 nav{
   position:absolute;
   left:1100px;
   top:10px;
-
+  
 }
 
 div img{
@@ -26,21 +29,18 @@ div img{
   top:15px;
 }
 
-*{
-  padding:0;
-  margin: 0;
-}
+
 
 nav ul li{
-      list-style: none;
       display: inline-block;
+      
 }
 
 nav ul li a{
   color:black;
   display: block;
-  text-decoration: none;
   padding:20px;
+  
 }
 
 nav ul li a:hover{
@@ -52,6 +52,57 @@ nav ul li a:hover{
   top:90px;
   width: 100%;
   height: 500px;
-  border:3px solid #FF0000;
+  border:3px solid gray;
+  left:-4px;
 }
 
+.Categorias{
+  position: absolute;
+  top:600px;
+  left:500px;
+  display: inline-block;
+}
+
+.Categoria-1{
+  position: absolute;
+  top: 592px;
+  left:-7px;
+  padding:5px;
+  border:3px solid gray;
+  width: 100%;
+  height:130px;
+}
+
+.Logo-1{
+  position: absolute;
+  left:30px;
+  top:-20px;
+}
+
+.Logo-2{
+  position: absolute;
+  left:450px;
+}
+
+.Logo-3{
+  position: absolute;
+  left:830px;
+}
+
+.Logo-4{
+  position: absolute;
+  left:1180px;
+  top:-10px;
+}
+
+.Publicidad{
+  position:absolute;
+  color:black;
+  text-decoration:none;
+  top: 120px;
+  left:100px;
+}
+
+.Publicidad:hover{
+  background-color:antiquewhite
+}
