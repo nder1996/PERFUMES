@@ -92,9 +92,30 @@ button:hover{
   top: -30px;
 }
 
+.Borde-form{
+  border:5px solid black;
+  width:50%;
+}
+
 form{
-  background-color: red;
+  position: relative;
+  left: 25%;
   text-align: center;
+  
+}   
+
+.Botton-Enviar{
+  width: 10%;
+  height:35px;
+  background-color:transparent;
+  border: 2px solid black;
+  border-radius: 15px;
+  color:black;
+}
+
+.Botton-Enviar:hover{
+  color:bisque;
+  background-color:black;
 }
 
 

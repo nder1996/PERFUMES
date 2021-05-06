@@ -1,56 +1,25 @@
-
-.Caja-Logos{
-    border: 5px solid green;
-    display: flex;
-    width:85%;
+.Borde-form{
+    border:5px solid black;
+    width:50%;
 }
 
-.Logo-1{
-    width:80%;
-    text-align:center;
-    margin: 10px;
-}
+form{
+    position: relative;
+    left: 22%;
+    text-align: center;
+    
+}   
 
-.Logo-1:hover{
+.Botton-Enviar{
+    width: 10%;
+    height:35px;
+    background-color:transparent;
     border: 2px solid black;
-    box-shadow: 5px 5px 0px #000;
+    border-radius: 15px;
+    color:black;
 }
 
-img{
-    display: flex;
-    width:90%;
-    margin: 10px;
-}
-
-button{
-    border:2px solid black;
-    background:white;
-    border-radius: 6px;
-}
-
-button:hover{
+.Botton-Enviar:hover{
+    color:bisque;
     background-color:black;
-    color:white;
-    padding:5px;
-
-}
-
-.Publicidad-1{
-    position: relative;
-    top: -20px;
-}
-
-.Publicidad-2{
-    position: relative;
-    top: -10px;
-}
-
-.Publicidad-3{
-    position: relative;
-    top: 45px;
-}
-
-.Publicidad-4{
-    position: relative;
-    top: 50px;
 }
