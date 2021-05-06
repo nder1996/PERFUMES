@@ -6,17 +6,20 @@
 }
 
 .Logo-1{
-    background-color: red;
     width:80%;
     text-align:center;
     margin: 10px;
+}
+
+.Logo-1:hover{
+    border: 2px solid black;
+    box-shadow: 5px 5px 0px #000;
 }
 
 img{
     display: flex;
     width:90%;
     margin: 10px;
-    
 }
 
 button{
@@ -34,15 +37,20 @@ button:hover{
 
 .Publicidad-1{
     position: relative;
-    top: 10px;
+    top: -20px;
 }
 
 .Publicidad-2{
     position: relative;
-    top: 40px;
+    top: -10px;
+}
+
+.Publicidad-3{
+    position: relative;
+    top: 45px;
 }
 
 .Publicidad-4{
     position: relative;
-    top: -25px;
+    top: 50px;
 }
