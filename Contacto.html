@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <a href="index.html">
         <link rel="icon" href="img/Logo-Perfume.png">
-     </a>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Perfumes</title>
     <link href="css/style.css" rel="stylesheet">
 </head>
@@ -17,11 +16,84 @@
         </header>
         <nav>
             <ul>
-                <li><a href="">INICIO</a></li>
+                <li><a href="Index.html">INICIO</a></li>
                 <li><a href="">PRODUCTOS</a></li>
                 <li><a href="Contacto.html">CONTACTO</a></li>
               </ul>
         </nav>
     </div>
+    <div>    
+        <img class="Img-Portada" src="img/Portada.jpg">
+    </div>
+    <div class="Anuncio-1">
+        <H1>CONTÁCTANOS</H1>
+    </div>
+    <br>
+    <form>
+        <fieldset class="Borde-form">
+            <legend><h1>Datos Personales</h1></legend>
+            <input type="text" placeholder="Nombre Completo">&nbsp
+            <input type="email" placeholder="Email"> &nbsp
+            <label>Sexo</label>
+            <select name="select">
+                <option value="value1" disabled>Sexo</option>
+                <option value="value2">Hombre</option> 
+                <option value="value3">Mujer</option>
+            </select>
+            <br><br>
+            <label>Edad </label>
+            <select name="select">
+                <option value="value1" disabled>Elige tu edad</option>
+                <option value="value2">18-25 Años</option> 
+                <option value="value3">25-35 Años</option>
+                <option value="value3">35-50 Años</option>
+                <option value="value3">50-75 Años</option>
+            </select>&nbsp;&nbsp
+            <label>Tipo de consulta</label>
+            <select name="select-1">
+              <option value="value1" disabled>¿Qué deseas?</option>
+              <option value="value2">Interesado en un producto</option> 
+              <option value="value3">Reclamos o Quejas</option>
+            </select> <br> <br>
+            <textarea name="textarea" rows="10" cols="50" placeholder="Escribe lo que quieras"></textarea>
+            <br><br>
+            <input type="submit" value="Enviar" class="Botton-Enviar" />
+          </fieldset> <br>  
+    </form>
+    <br>
+      <br>
+    <div class="Anuncio-1">
+        <h1>PATROCINADORES</h1>
+    </div>
+    <div class="Caja-Logos">
+        <div class="Logo-1">
+                <img class="Img-1"  src="img/1-Perfume.png">
+            <a href="https://www.youtube.com/watch?v=tKuBgn3QtlQ" target="_blank">
+                <button class="Publicidad-1"><h3>Publicidad</h3></button>
+            </a>
+        </div>
+        <div class="Logo-1">
+          <img class="Img-2"  src="img/2-Perfume.png" alt="">
+          <a href="https://www.youtube.com/watch?v=zfKe689BnYw" target="_blank">
+                <button class="Publicidad-2"><h3>Publicidad</h3></button>
+          </a>
+        </div>
+        <div class="Logo-1">
+          <img class="Img-3"  src="img/3-Perfume.png" alt="">
+            <a href="https://www.youtube.com/watch?v=lvBWZLV7Y7g" target="_blank">
+                <button class="Publicidad-3"><h3>Publicidad</h3></button>
+            </a>
+        </div>
+        <div class="Logo-1">
+          <img class="Img-4"  src="img/4-Perfume.png" alt="">
+          <a href="https://www.youtube.com/watch?v=oO-_yNF6IkQ" target="_blank">
+            <button class="Publicidad-4"><h3>Publicidad</h3></button>
+          </a>
+        </div>
+    </div>
+    <footer>
+        <h1>2021 &copy; PERFUMERÍA</h1>
+        <h4>ANDERSONS AREVALO MADRID</h4>
+      </footer>
 </body>
 </html>
