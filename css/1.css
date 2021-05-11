@@ -71,21 +71,17 @@ header label:hover{
     color:black;
     display: block;
     font-size:20px;
-    border:2px solid black;
+    border-right: 5px solid gray;
    
 }
 
 .Menu li a:hover{
-    background-color:antiquewhite;
+    background:antiquewhite;
     
 }
 
 @media (max-width:768px){
     
-    header {
-        background-color:black;
-    }
-
     header label{
         display:block;
     }
@@ -95,9 +91,7 @@ header label:hover{
         background-color: black;
         margin-top: -100%;
         width:50%;
-        left:-10px;
-        top: 22px;
-        
+        left:-1px;
     }
 
     .Menu ul{
@@ -111,18 +105,21 @@ header label:hover{
 
     .Menu li a:hover{
         background-color:gray;
+        border-right: 5px solid red;
     }
 
     .Img-Logo{
-        position: absolute;
-        left:110px;
-        top: 10px;
-        height:105px;
+        position: relative;
+        float: right;
+        top: -10px;
+        height:100px;
+
     }
 
 
     #btn-menu:checked~.Menu{
         margin: 0;
+        text-align: center;
     }
 
 
