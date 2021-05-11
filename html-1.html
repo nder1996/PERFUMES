@@ -5,38 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/1.css" rel="stylesheet">
-  </head>
+    <link href="css/all.min.css" rel="stylesheet">
+    <script src="js/1.js" language="javascript" type="text/javascript"></script>
   <body>
-      <form>
-        <fieldset class="Borde-form">
-            <legend><h1>Datos Personales</h1></legend>
-            <input type="text" placeholder="Nombre Completo">&nbsp
-            <input type="email" placeholder="Email"> &nbsp
-            <label>Sexo</label>
-            <select name="select">
-                <option value="value1" disabled>Sexo</option>
-                <option value="value2">Hombre</option> 
-                <option value="value3">Mujer</option>
-            </select>
-            <br><br>
-            <label>Edad </label>
-            <select name="select">
-                <option value="value1" disabled>Elige tu edad</option>
-                <option value="value2">18-25 Años</option> 
-                <option value="value3">25-35 Años</option>
-                <option value="value3">35-50 Años</option>
-                <option value="value3">50-75 Años</option>
-            </select>&nbsp;&nbsp
-            <label>Tipo de consulta</label>
-            <select name="select-1">
-              <option value="value1" disabled>¿Qué deseas?</option>
-              <option value="value2">Interesado en un producto</option> 
-              <option value="value3">Reclamos o Quejas</option>
-            </select> <br> <br>
-            <textarea name="textarea" rows="10" cols="50" placeholder="Escribe lo que quieras"></textarea>
-            <br><br>
-            <input type="submit" value="Enviar" class="Botton-Enviar" />
-          </fieldset> <br>  
-    </form>
+        <header>
+            <input type="checkbox" id="btn-menu">
+                <label for="btn-menu">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <nav class="Menu">
+                  <ul>
+                    <li> <a href="">Inicio</a> </li>
+                    <li> <a href="">PRODUCTOS</a> </li>
+                    <li> <a href="">CONTACTOS</a> </li>
+                  </ul>
+                </nav>
+          </header>
   </body>
 </html>
