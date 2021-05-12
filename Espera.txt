@@ -1,0 +1,26 @@
+        <div class="slider">
+          <ul>
+            <li><img src="img/Slider-1.jpg"></li>
+            <li><img src="img/Slider-2.jpg"></li>
+            <li><img src="img/slider-3.PNG"></li>
+          </ul>
+        </div>
+
+        <div class="Diseño-Cat">
+          <h1 class="Cat">CATEGORÍAS</h1>
+        </div>
+
+
+        <div class="Tabs">
+            <ul>
+                <li><font style="font-family:cursive" size=5>DAMAS</font></li>
+                <li><font style="font-family:cursive" size=5>CABALLEROS</font></li>
+            </ul>
+                <div class="Tabs-Categorias">
+                      <div class="Pestaña-Damas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, facere dolore suscipit repudiandae, labore voluptatibus id earum blanditiis rerum perferendis maxime a possimus quo facilis nulla dolorum fuga! Illum, dolores?</div>
+                      <div class="Pestaña-Caballeros">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus ab doloribus ad suscipit tempore maiores, quam adipisci fugiat, ea officiis impedit! Illo error explicabo obcaecati dolorem facere dolores optio velit?</div>
+                </div>
+          </div>
+          <div class="Anuncios">
+            <h2 class="Publicidad" ><font>“SI TIENE 55 AÑOS O MÁS, OBTENGA UN 10% DE DESCUENTO ADICIONAL CADA LUNES”</font></h1>
+          </div>
