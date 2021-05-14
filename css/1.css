@@ -139,9 +139,9 @@ header{
     position: relative;
     border-bottom: 10px solid red;
     width:30%;
+    background-color:black;
+    color:white;
 }
-
-
 
 /*TAB--------------------*/
 
@@ -184,14 +184,54 @@ header{
     position:relative;
     display: none;
     padding: 6px 12px;
-    border: 5px solid black;
-
     
   }
 
+  .Producto-Caballeros{
+      position:relative;
+      text-align: center;
+      width:100%;
+      
+  }
+
+  .Producto-Caballeros h1{
+      position:relative;
+      font-size: 30px;
+      width:100%;
+      
+  }
+
+  .Descripcion{
+      position:relative;
+      font-size:22px;
+      top:-12px;
+
+  }
+
+  .Producto-1 h3{
+      position:relative;
+      top: -30px;
+      font-size:20px;
+  }
+
+  .Producto-1,.Producto-2,.Producto-3{
+      text-align: center;
+      flex: float;
+      display:inline-block;
+      width:27%;
+      height: 700px;
+      background-color:red
+
+  }
 
 
-
+  .Producto-1 button{
+      position: relative;
+      font-size:15px;
+      top:-37px;
+      border: none;
+      background-color:antiquewhite;
+  }
 
 
 
