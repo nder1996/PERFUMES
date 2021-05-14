@@ -148,13 +148,12 @@ header{
 .tab {
     width:100%;
     overflow: hidden;
-    
   }
   
   /* Style the buttons inside the tab */
   .tab button {
     position:relative;
-    left:190px;
+    left:40px;
     background-color:#000;
     color:bisque;
     text-decoration: none;
@@ -182,6 +181,7 @@ header{
   /* Style the tab content */
   .tabcontent {
     position:relative;
+    background-color:red;
     display: none;
     padding: 6px 12px;
     
@@ -189,29 +189,41 @@ header{
 
   .Producto-Caballeros{
       position:relative;
+      background-color:gray;
       text-align: center;
-      width:100%;
-      
+      width:100%;  
   }
 
   .Producto-Caballeros h1{
       position:relative;
       font-size: 30px;
       width:100%;
-      
   }
 
+  #Producto-Titulo_1,#Producto-Titulo_3{
+      position:relative;
+      top:-25px;
+  }
+  #Img-Producto_1,#Img-Producto_3{
+      position:relative;
+      top:-25px;
+  }
+   #Img-Descripcion_2{
+       position:relative;
+       top:10px;
+   }
   .Descripcion{
       position:relative;
       font-size:22px;
       top:-12px;
-
+      text-align: justify;
   }
 
-  .Producto-1 h3{
+  .Precio{
       position:relative;
-      top: -30px;
-      font-size:20px;
+      top: -00px;
+      font-size:25px;
+      color:navy;
   }
 
   .Producto-1,.Producto-2,.Producto-3{
@@ -220,9 +232,13 @@ header{
       display:inline-block;
       width:27%;
       height: 700px;
-      background-color:red
-
+      margin-left:20px;
+      margin-right: 20px;
   }
+
+ 
+
+
 
 
   .Producto-1 button{
@@ -263,6 +279,7 @@ header{
     width:70%;
     background-color:antiquewhite;
     border-radius: 10px;
+    color:black;
 }
 
 .Login h1{
