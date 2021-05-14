@@ -234,9 +234,70 @@ header{
   }
 
 
+/* LOGIN - PRINCIPAL */
+
+.Login-P{
+    position: relative;
+    width:100%;
+    height:1000px;
+}
+
+.Login{
+    position: relative;
+    background-color: MidnightBlue;
+    text-align: center;
+    float:left;
+    display: block;
+    border:5px solid black;
+    border-radius: 20px;
+    left:470px;
+    top:100px;
+    width:30%;
+    height:500px;
+    box-shadow: 5px 5px 5px  wheat;
+}
+
+
+#Input{
+    position: relative;
+    width:70%;
+    background-color:antiquewhite;
+    border-radius: 10px;
+}
+
+.Login h1{
+    position: relative;
+    text-align: center;
+    font-size:40px;
+    color:white;
+}
 
 
 
+.Recordar-C{
+    position: relative;
+    text-align: center;
+    top: 400px;
+    left:-230px;
+}
+
+.Recordar-C a{
+    position: relative;
+    color:white;
+    font-size:15px;
+}
+
+.Recordar-C a:hover{
+    background-color:black;
+}
+
+
+
+
+
+
+
+/*     ------              */
 
 @keyframes cambio{
 
@@ -257,30 +318,6 @@ header{
         border-radius: 10px;   
     }
 
-}
-
-
-
-/*
-
-#btn-menu{
-    display: none;
-    
-}
-
-header label{
-    display:none;
-    width:60px;
-    padding:10px;
-    border-right: 5px solid red;
-}
-
-header label:hover{
-    background-color:gray;
-    border: 1px solid black ;
-    cursor:pointer;
-    flex: display;
-    
 }
 
 
