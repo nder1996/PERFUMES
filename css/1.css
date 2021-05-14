@@ -185,115 +185,137 @@ header{
     padding: 6px 12px;
   }
 
-  .Producto-Caballeros{
-      position:relative;
-      text-align: center;
-      width:100%;  
-  }
 
-  #Producto-Titulo_1{
-      position:relative;
-      top:-15px;
-  }
-
-  #Producto-Titulo_2{
+/*-----------------------------------------------------------------------*/
+  .Perfumes-Productos{
     position:relative;
-    top:-15px;
-}
-
-#Producto-Titulo_3{
-    position:relative;
-    top:-15px;
-}
-
-#Img-Producto_1,#Img-Producto_3{
-      position:relative;
-      top:-25px;
-  }
-
-  #Img-Producto_2{
-      position:relative;
-      top:-30px;
-  }
-
-  #Img-Descripcion_1,#Img-Descipciones_3{
-      position:relative;
-      top:-20px;
-  }
-
-   #Img-Descripcion_2{
-       position:relative;
-       top:-45px;
-   }
-  .Descripcion{
-      position:relative;
-      font-size:22px;
-      top:-12px;
-      text-align: justify;
-  }
-
-  .Precio{
-      position:relative;
-      top: -55px;
-      font-size:20px;
-      color:navy;
-  }
-
-  .Compra{
-      position:relative;
-      text-decoration: none;
-      border-radius:20px;
-      background-color:antiquewhite;
-      top:-80px;
-      float: left;
-      right:-100px;
-  }
-
-  .Producto{
-      text-align: center;
-      flex: float;
-      display:inline-block;
-      width:27%;
-      height: 700px;
-      margin-left:20px;
-      margin-right: 20px;
-      
-  }
-
-  #Producto_2{
-      position:relative;
-      top:25px;
-  }
-
-
-  .Producto:hover{
-    border:5px solid black;
-    }
-
+    float:flex;
+    text-align: center;
+    width:100%;
+    height: 1250px;
+    top:30px;
     
-    .Carrito-1{
-        position:relative;
-        overflow:hidden;
-        flex:float;
-        width:100%;
-        height:70px;
-        top:-30px;
-    }
+}
 
-    .Carrito-1 button{
-        position:relative;
-        top:-45px;
-        right:-200px;
-    }
+.Producto{
+   display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 20%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    background-color:burlywood;
+    border-radius: 20px;
+}
 
-    #Precio-1{
-        position:relative;
-        top:10px;
-        left:-70px;
-    }
+#Producto_2,#Producto_3{
+    position:relative;
+    top:-20px;
+    height:555px;
+}
+
+#Producto_4{
+   position:relative;
+   top:-70px;
+   height:610px;
+}
+
+#Producto_5{
+   position:relative;
+   top:-37px;
+   height:610px;
+}
+
+#Producto_6{
+   position:relative;
+   top:-20px;
+   height:610px;
+}
 
 
- 
+.Producto:hover{
+    border:5px solid black;
+    background-color:white;
+}
+
+.Titulo{
+    position:relative;
+    text-align: center;
+    width: 100%;
+    top:-15px;
+    font-size: 1.2vw;
+    color:black;
+}
+
+.Img-Producto{
+    position:relative;
+    top: -25px;
+    width: 70%;
+}
+
+.Descripcion{
+   position:relative;
+   text-align: justify;
+   top:-30px;
+}
+
+.Compra{
+   position:relative;
+   float:flex;
+   text-align: center;
+   text-decoration: none;
+   background-color:black;
+   color:white;
+   border-radius:10px;
+   width:100%;
+   height:50px;
+   font-size: 0.7vw;
+   top:-25px;
+}
+
+#Compra_1{
+   position: relative;
+   top:-25px;
+}
+
+#Compra_2{
+   position: relative;
+   top:-7px;
+}
+#Compra_3{
+   position: relative;
+   top:-8px;
+}
+
+#Compra_4{
+   position: relative;
+   top:40px;
+}
+
+#Compra_5{
+   position: relative;
+   top:7px;
+}
+
+#Compra_6{
+   position: relative;
+   top:-32px;
+}
+
+.Compra:hover{
+   background-color:black;
+   color:antiquewhite;
+   font-size: 0.7vw;
+}
+
+.Content-Compra{
+   position:relative;
+   top:-12px;
+   left:-5px;
+}
+
+/*-----------------------------------------------------------------------*/
 
 
 
