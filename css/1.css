@@ -186,133 +186,87 @@ header{
   }
 
 
-/*-----------------------------------------------------------------------*/
-  .Perfumes-Productos{
+/*-----------------TABLA DE PRODUCTOS------------------------------------------------------*/
+  
+.Perfumes-Productos{
     position:relative;
     float:flex;
-    text-align: center;
     width:100%;
-    height: 1250px;
-    top:30px;
-    
+    height: 700px;
+    top:100px;
 }
 
-.Producto{
-   display: inline-block;
-    position: relative;
-    text-align: center;
-    width: 20%;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 30px;
-    background-color:burlywood;
-    border-radius: 20px;
-}
-
-#Producto_2,#Producto_3{
+.Tabla-Hombres{
     position:relative;
-    top:-20px;
-    height:555px;
+    float: flex;
+    width:100%;
+    height:500px;
+    border-spacing: 0;   
 }
 
-#Producto_4{
-   position:relative;
-   top:-70px;
-   height:610px;
+table th{
+  position:relative;
+   border-right: 5px solid red;
+   margin-right: 50px;
+   background-color: #E9DBD990;
+   width:25%;
+   height:10px;
+   color:black
+}
+table div:hover{
+border: 2px solid gray;
+background-color:white;
+
 }
 
-#Producto_5{
-   position:relative;
-   top:-37px;
-   height:610px;
+table h1{ 
+  position:relative;
+  font-size: 1.2vw;
 }
 
-#Producto_6{
-   position:relative;
-   top:-20px;
-   height:610px;
+table img{
+  position:relative;
+  width:40%;
+  top: -20px;
+}
+
+table p{
+  position:relative;
+  top: -50px;
+  text-align: justify;
+  
+}
+
+table button{
+  position:relative;
+  background-color:white;
+  border-radius: 10px;
+  outline:none;
+  color: black;
+  width:60%;
+  height:35px;
+  top:-10px;
 }
 
 
-.Producto:hover{
-    border:5px solid black;
-    background-color:white;
+table button:hover{
+  background-color:black;
+  color:bisque;
 }
 
-.Titulo{
-    position:relative;
-    text-align: center;
-    width: 100%;
-    top:-15px;
-    font-size: 1.2vw;
-    color:black;
+.Tabla-Damas #Compra_5{ 
+  position:relative;
+  top:6px;
 }
 
-.Img-Producto{
-    position:relative;
-    top: -25px;
-    width: 70%;
+.Tabla-Damas #Compra_6{ 
+  position:relative;
+  top:-30px;
 }
 
-.Descripcion{
-   position:relative;
-   text-align: justify;
-   top:-30px;
-}
-
-.Compra{
-   position:relative;
-   float:flex;
-   text-align: center;
-   text-decoration: none;
-   background-color:black;
-   color:white;
-   border-radius:10px;
-   width:100%;
-   height:50px;
-   font-size: 0.7vw;
-   top:-25px;
-}
-
-#Compra_1{
-   position: relative;
-   top:-25px;
-}
-
-#Compra_2{
-   position: relative;
-   top:-7px;
-}
-#Compra_3{
-   position: relative;
-   top:-8px;
-}
-
-#Compra_4{
-   position: relative;
-   top:40px;
-}
-
-#Compra_5{
-   position: relative;
-   top:7px;
-}
-
-#Compra_6{
-   position: relative;
-   top:-13px;
-}
-
-.Compra:hover{
-   background-color:black;
-   color:antiquewhite;
-   font-size: 0.7vw;
-}
-
-.Content-Compra{
-   position:relative;
-   top:-12px;
-   left:-5px;
+table button h3{
+  position: relative;
+  top: -22px;;
 }
 
 /*-----------------------------------------------------------------------*/
