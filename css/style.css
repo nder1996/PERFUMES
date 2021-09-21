@@ -1,0 +1,33 @@
+body{background: url("/img/1.png")}
+
+
+.link{color: white !important;}
+
+.link:hover{color: bisque !important;}
+
+.nav-item{margin-left: 25px;}
+
+.Logo-Navbar{text-align: center;height: 170px;}
+
+.logo img{height: 170px;}
+
+.carousel{
+    margin: auto;
+     width: 90%;
+
+}
+
+.carousel-inner , .carousel-item{
+    /*
+    width: 90%;*/
+    
+}
+
+.carousel-item img{
+    height: 800px;
+}
+
+.Slider_Productos{
+    border: 5px solid red;
+    height: 100%;
+}
