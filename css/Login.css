@@ -1,0 +1,76 @@
+.Tabs {
+    border: 5px solid black;
+}
+
+.Login,
+.Sign {
+    border: 5px solid red;
+
+}
+
+.Registro form{
+	width: 50%;
+	height: 500px;
+	padding: 25px;
+	border: 5px solid black;
+	margin-right: 25px;
+}
+
+.Inicio{
+
+}
+
+.Inicio form {
+	margin-right: 25px;
+}
+
+.tab-pane {
+    border: 5px solid gray;
+    padding: 25px;
+    width: 80%;
+
+}
+
+.tab-pane .input-group {
+    /*border: 5px solid red;*/
+    margin-top: 25px;
+}
+
+.Molde-Login{
+	border: 5px solid yellow;
+	width: 70%;
+	height: 100%;
+	margin: auto;
+}
+
+.Anuncio{
+	border: 5px solid red;
+	width: 70%;
+}
+
+
+
+/*
+.Inicio{
+	border: 5px solid black;
+	width: 100%;
+	padding: 25px;
+
+}
+
+.Registro{
+	border: 5px solid black;
+	width: 150%;
+	margin: auto;
+	padding: 25px;
+}
+
+.tab-content{
+	border: 4px solid yellow;
+	width: 100%;
+}
+
+.Registro .input-group{
+	border: 5px solid red;
+	margin-top: 25px;
+}

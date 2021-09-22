@@ -28,6 +28,21 @@ body{background: url("/img/1.png")}
 }
 
 .Slider_Productos{
-    border: 5px solid red;
+
     height: 100%;
+}
+
+.Footer{
+    height: 150px;
+    color: black;
+    background-color: silver !important;
+}
+
+.Footer .Info{
+    margin-top: 25px;
+}
+
+.Footer .Icon h1{
+    margin-left: 25px;
+    font-size: 50px;
 }
